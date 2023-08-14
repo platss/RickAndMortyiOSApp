@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		6F2F15E82A8A39B700638968 /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2F15E72A8A39B700638968 /* RMService.swift */; };
 		6F2F15EA2A8A39D600638968 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2F15E92A8A39D600638968 /* RMRequest.swift */; };
+		6F6857B22A8A5687001FBF07 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6857B12A8A5687001FBF07 /* RMOrigin.swift */; };
+		6F6857B42A8A5747001FBF07 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6857B32A8A5747001FBF07 /* RMSingleLocation.swift */; };
+		6F6857B62A8A5A74001FBF07 /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6857B52A8A5A74001FBF07 /* RMCharacterStatus.swift */; };
+		6F6857B82A8A5C61001FBF07 /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6857B72A8A5C61001FBF07 /* RMCharacterGender.swift */; };
 		6FB550722A88DEFD0097C744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB550712A88DEFD0097C744 /* AppDelegate.swift */; };
 		6FB550742A88DEFD0097C744 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB550732A88DEFD0097C744 /* SceneDelegate.swift */; };
 		6FB550762A88DEFD0097C744 /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB550752A88DEFD0097C744 /* RMTabBarController.swift */; };
@@ -27,6 +31,10 @@
 /* Begin PBXFileReference section */
 		6F2F15E72A8A39B700638968 /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
 		6F2F15E92A8A39D600638968 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
+		6F6857B12A8A5687001FBF07 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		6F6857B32A8A5747001FBF07 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
+		6F6857B52A8A5A74001FBF07 /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
+		6F6857B72A8A5C61001FBF07 /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
 		6FB5506E2A88DEFD0097C744 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB550712A88DEFD0097C744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FB550732A88DEFD0097C744 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +100,10 @@
 				6FB5508E2A88E75D0097C744 /* RMLocation.swift */,
 				6FB550902A88E7660097C744 /* RMCharacter.swift */,
 				6FB550922A88E76F0097C744 /* RMEpisode.swift */,
+				6F6857B12A8A5687001FBF07 /* RMOrigin.swift */,
+				6F6857B32A8A5747001FBF07 /* RMSingleLocation.swift */,
+				6F6857B52A8A5A74001FBF07 /* RMCharacterStatus.swift */,
+				6F6857B72A8A5C61001FBF07 /* RMCharacterGender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,6 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6857B22A8A5687001FBF07 /* RMOrigin.swift in Sources */,
+				6F6857B42A8A5747001FBF07 /* RMSingleLocation.swift in Sources */,
+				6F6857B62A8A5A74001FBF07 /* RMCharacterStatus.swift in Sources */,
+				6F6857B82A8A5C61001FBF07 /* RMCharacterGender.swift in Sources */,
 				6FB550982A88E8690097C744 /* RMLocationViewController.swift in Sources */,
 				6FB550932A88E76F0097C744 /* RMEpisode.swift in Sources */,
 				6FB550762A88DEFD0097C744 /* RMTabBarController.swift in Sources */,
